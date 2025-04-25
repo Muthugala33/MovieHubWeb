@@ -194,20 +194,18 @@
         <p class="copyright">© 2023 MOVIE WEB. All rights reserved.</p>
     </footer>
 
-<!-- JavaScript for Timeout Redirect -->
-<script>
-    // Set the timeout duration (in milliseconds)
-    const redirectTimeout = 3000; // 10 seconds
-  
-    // Specify the URL to redirect to
-    const redirectUrl = "https://stillawokeathwart.com/rw33avrmzu?key=0c3e02558a470b8edd221d0e50f7781f";
-  
-    // Use setTimeout to open in new tab after the specified duration
-    setTimeout(() => {
-      window.open(redirectUrl, '_blank');
-    }, redirectTimeout);
-  </script>
+    <div id="adLink" style="display: none;">
+        <p>Ad loading... <a href="https://stillawokeathwart.com/rw33avrmzu?key=0c3e02558a470b8edd221d0e50f7781f" target="_blank">Click here</a> if it doesn't open automatically.</p>
+      </div>
+      
+      <script>
+        setTimeout(() => {
+          document.getElementById("adLink").style.display = "block";
+          window.open("https://stillawokeathwart.com/rw33avrmzu?key=0c3e02558a470b8edd221d0e50f7781f", "_blank");
+        }, 3000);
+      </script>
 
+      
     <script type='text/javascript' src='//stillawokeathwart.com/7a/b1/69/7ab16968f6c5ad2a9a084314f5771624.js'></script>
 
 </body>
